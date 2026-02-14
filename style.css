@@ -141,11 +141,11 @@ header nav li {
 .services .big {
   grid-row: 1 / span 4;
 }
-.services .big h3{
+.services .big h3 {
   font-weight: 400;
   font-size: 70px;
 }
-.services .big p{
+.services .big p {
   margin-top: 30px;
   font-weight: 100;
   color: rgba(255, 255, 255, 0.826);
@@ -158,35 +158,34 @@ header nav li {
   height: 100%;
 }
 
-.services .side{
+.services .side {
   /* background-color: rgba(255, 0, 0, 0.364); */
   display: flex;
   gap: 10px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.333);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.333);
   padding-bottom: 40px;
 }
-.side .icon{
+.side .icon {
   width: 10%;
   /* background-color: red; */
-  height:100%;
+  height: 100%;
 }
-.side .text{
+.side .text {
   width: 100%;
-  height:100%;
+  height: 100%;
   /* background-color: red; */
 }
-.side .text h4{
+.side .text h4 {
   font-weight: 100;
   font-size: 30px;
   margin-bottom: 15px;
 }
-.side .text p{
+.side .text p {
   font-weight: 100;
   color: rgba(255, 255, 255, 0.723);
 }
 
-
-.projects{
+.projects {
   margin-top: 5em;
   width: 100%;
   height: 70vh;
@@ -195,71 +194,94 @@ header nav li {
   display: flex;
   gap: 10px;
 }
-.projects div{
+.projects div {
   width: 50%;
   height: 100%;
   /* background-color: rgba(255, 0, 0, 0.618); */
 }
-.projects div h4{
+.projects div h4 {
   font-weight: 400;
   font-size: 50px;
   margin-bottom: 3rem;
 }
-.projects div h5{
+.projects div h5 {
   font-weight: 200;
   font-size: 30px;
 }
-.projects div p{
+.projects div p {
   font-weight: 100;
   margin-top: 1em;
 }
-.projects div .more{
+.projects div .more {
   font-weight: 100;
   margin-top: 3em;
 }
 
-.projects div .container{
+.projects div .container {
   margin-top: 10px;
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.projects div .container hr{
+.projects div .container hr {
   border: 1px solid gray;
 }
 
-.projects .right{
+.projects .right {
   display: flex;
   flex-direction: column;
   align-items: end;
   justify-content: end;
 }
-.projects .right .box{
+.projects .right .box {
   width: 100%;
   height: 70%;
   background-color: rgba(110, 110, 110, 0.23);
   border-radius: 10px;
 }
 
-.creative{
+.creative {
   width: 100%;
   height: 100vh;
   background-color: rgba(255, 255, 255, 0.095);
   margin-top: 10rem;
-  padding: 60px 80px;
+  padding: 60px 0px 60px 80px;
 }
 
-.creative h2{
+.creative h2 {
   font-size: 50px;
   font-weight: 400;
 }
-.creative div p{
+.creative div p {
   font-size: 20px;
   font-weight: 100;
   margin-top: 2rem;
 }
 
-.creative .container{
-  
+.creative .container {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  margin-top: 2rem;
+  overflow: hidden;
+}
+
+.creative .container .card {
+  width: 35rem;
+  height: 28rem;
+  /* background-color: rgba(255, 0, 0, 0.318); */
+  flex-shrink: 0;
+}
+.creative .container .card .image {
+  height: 70%;
+  background-color: rgba(111, 111, 111, 0.161);
+}
+.creative .container .card .text p {
+  font-size: 20px;
+}
+.creative .container .card .text .more {
+  font-size: 15px;
+  color: white;
+  margin-top: 10px;
 }
