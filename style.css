@@ -189,8 +189,8 @@ header nav li {
 .projects{
   margin-top: 5em;
   width: 100%;
-  height: 100vh;
-  background-color: rgba(255, 0, 0, 0.333);
+  height: 70vh;
+  /* background-color: rgba(255, 0, 0, 0.333); */
   padding: 0 80px;
   display: flex;
   gap: 10px;
@@ -203,11 +203,11 @@ header nav li {
 .projects div h4{
   font-weight: 400;
   font-size: 50px;
+  margin-bottom: 3rem;
 }
 .projects div h5{
   font-weight: 200;
   font-size: 30px;
-  margin-top: 3rem;
 }
 .projects div p{
   font-weight: 100;
@@ -218,3 +218,26 @@ header nav li {
   margin-top: 3em;
 }
 
+.projects div .container{
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.projects div .container hr{
+  border: 1px solid gray;
+}
+
+.projects .right{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+}
+.projects .right .box{
+  width: 100%;
+  height: 70%;
+  background-color: rgba(110, 110, 110, 0.23);
+  border-radius: 10px;
+}
